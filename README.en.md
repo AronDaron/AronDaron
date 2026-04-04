@@ -58,6 +58,21 @@ Fitness tracker gamified as an RPG — 11 stats, 21 ranks, fatigue/rusting mecha
 
 ---
 
+### 🌐 Owlcat Game Localization Tool *(in development, private)*
+
+A desktop translation pipeline for localizing Owlcat Games titles (Pathfinder, Rogue Trader) from English into Polish. Processes `.json` localization files while strictly preserving engine keys, tags, and formatting tokens — AI handles natural-sounding Polish output, the tool handles structural correctness.
+
+* Batch translation of `.json` locale files with key integrity enforcement
+* Grammar correction pass on top of raw AI output — fluency without breaking engine syntax
+* **Semantic cache** via LanceDB — previously translated phrases are matched by embeddings, not just exact strings, reducing redundant API calls
+* SQLite checkpoint system — resumable jobs, no re-translating what's already done
+* Live translation preview during development (`npm run dev:web` client-server mode)
+* Planned Electron `.exe` build once core logic stabilizes
+
+`React` `TypeScript` `Node.js` `SQLite` `LanceDB` `OpenRouter`
+
+---
+
 ## 🧠 How I work
 
 I vibe code with Claude Code. That means I spec architecture, design data models, reason about edge cases — and let AI handle the heavy lifting on implementation. This lets me ship real, working desktop apps with complex features (multi-agent pipelines, native API integrations, proper local data persistence) without a traditional CS background.
