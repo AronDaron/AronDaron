@@ -58,6 +58,21 @@ Tracker fitness z mechanikami RPG — 11 statystyk, 21 rang, system zmęczenia i
 
 ---
 
+### 🌐 Narzędzie do lokalizacji gier Owlcat *(w trakcie rozwoju, prywatne)*
+
+Desktopowy pipeline do tłumaczenia gier Owlcat Games (Pathfinder, Rogue Trader) z angielskiego na polski. Przetwarza pliki lokalizacyjne `.json` z rygorystycznym zachowaniem kluczy silnika, tagów i tokenów formatowania — AI odpowiada za naturalnie brzmiący polski, narzędzie pilnuje poprawności strukturalnej.
+
+* Wsadowe tłumaczenie plików `.json` z walidacją integralności kluczy
+* Osobny pass korekty gramatycznej na wyjściu AI — płynność bez łamania składni silnika
+* **Semantyczny cache** przez LanceDB — wcześniej przetłumaczone frazy dopasowywane embeddingami, nie tylko dokładnym stringiem, co ogranicza zbędne wywołania API
+* System checkpointów w SQLite — zadania są wznawialne, raz przetłumaczone frazy nie są przetwarzane ponownie
+* Podgląd tłumaczenia na żywo w trybie deweloperskim (`npm run dev:web`)
+* Docelowy build jako Electron `.exe` — po ustabilizowaniu logiki
+
+`React` `TypeScript` `Node.js` `SQLite` `LanceDB` `OpenRouter`
+
+---
+
 ## 🧠 Jak pracuję
 
 Vibe coduję z Claude Code. To znaczy: projektuję architekturę, modeluję dane, myślę o edge case'ach — a implementację zostawiam AI. Dzięki temu mogę wypuszczać realne aplikacje desktopowe ze złożonymi funkcjami (pipelines wieloagentowe, natywne integracje API, lokalna persystencja danych) bez tradycyjnego tła CS.
