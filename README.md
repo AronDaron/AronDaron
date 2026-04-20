@@ -1,4 +1,4 @@
-🇵🇱 [Wersja polska](https://github.com/AronDaron/AronDaron/blob/main/README.md)
+🇵🇱 [Wersja polska](https://github.com/AronDaron/AronDaron/blob/main/README.pl.md)
  
 # Hi, I'm Radosław (AronDaron) 👋
  
