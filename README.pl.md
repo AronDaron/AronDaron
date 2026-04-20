@@ -16,7 +16,7 @@ Desktopowa aplikacja bez kodowania do generowania wysokiej jakości syntetycznyc
  
 * **Mierzalne wyniki:** +4.5pp na HumanEval, +5.0pp na HumanEval+ (Qwen2.5-Coder-7B-Instruct, średnia z 5 uruchomień, słupki błędów się nie pokrywają)
 * **Silnik Plan-then-Execute** — zróżnicowane, spójne datasety bez powtarzalnych wzorców
-* 270 testów przechodzi, dashboard w czasie rzeczywistym przez SSE, eksport do ShareGPT / Alpaca / ChatML
+* Dashboard w czasie rzeczywistym przez SSE, eksport do ShareGPT / Alpaca / ChatML, integracja z HuggingFace Hub
 * **Licencja AGPL-3.0** — open source z silną ochroną copyleft
 `Next.js 16` `FastAPI` `Python` `SQLite` `OpenRouter` `Pywebview`
  
