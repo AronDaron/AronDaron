@@ -1,88 +1,83 @@
-🇬🇧 [English version](./README.en.md)
-
+🇬🇧 [English version](https://github.com/AronDaron/AronDaron/blob/main/README.md)
+ 
 # Cześć, jestem Radosław (AronDaron) 👋
-
-**Specjalista IT, który buduje aplikacje desktopowe z AI.** Buduję narzędzia, których sam chcę używać. Po 10+ latach w IT wsparciu przekuwam tę wiedzę domenową w realne produkty na nowoczesnym stacku z LLM-ami.
-
+ 
+**Specjalista IT, który stał się twórcą aplikacji AI.** Buduję aplikacje desktopowe oparte o LLM — takie, z których sam chcę korzystać. Po ponad 10 latach w IT support wykorzystuję tę wiedzę domenową do tworzenia realnych narzędzi z wykorzystaniem nowoczesnych stacków AI.
+ 
+Domyślny stack: Electron / Pywebview + React + TypeScript + SQLite + OpenRouter. Wszystko działa lokalnie. Bez chmury, bez subskrypcji, bez telemetrii. Użytkownik jest właścicielem swoich danych.
+ 
 ---
-
-## 🛠️ Stack
-
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
-![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black)
-![Electron](https://img.shields.io/badge/Electron-47848F?style=flat&logo=electron&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat&logo=sqlite&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind-06B6D4?style=flat&logo=tailwindcss&logoColor=white)
-![OpenRouter](https://img.shields.io/badge/OpenRouter-FF6B35?style=flat)
-
-**Mój domyślny stack:** Electron + React + TypeScript + SQLite + OpenRouter API
-
-Wszystko działa lokalnie. Bez chmury, bez subskrypcji, bez telemetrii. Dane należą do użytkownika.
-
----
-
+ 
 ## 📦 Projekty
-
+ 
+### 🎯 [Dataset Generator](https://github.com/AronDaron/dataset-generator) — projekt flagowy
+ 
+Desktopowa aplikacja bez kodowania do generowania wysokiej jakości syntetycznych datasetów do fine-tuningu LLM-ów. Trzyetapowy pipeline (tematy → outline'y → przykłady) z kontrolą jakości przez LLM Judge, deduplikacją opartą o embeddingi i integracją z HuggingFace Hub.
+ 
+* **Mierzalne wyniki:** +4.5pp na HumanEval, +5.0pp na HumanEval+ (Qwen2.5-Coder-7B-Instruct, średnia z 5 uruchomień, słupki błędów się nie pokrywają)
+* **Silnik Plan-then-Execute** — zróżnicowane, spójne datasety bez powtarzalnych wzorców
+* 270 testów przechodzi, dashboard w czasie rzeczywistym przez SSE, eksport do ShareGPT / Alpaca / ChatML
+* **Licencja AGPL-3.0** — open source z silną ochroną copyleft
+`Next.js 16` `FastAPI` `Python` `SQLite` `OpenRouter` `Pywebview`
+ 
+---
+ 
 ### 📈 [Finance Portfolio Tracker](https://github.com/AronDaron/priv-finance-app)
-Desktopowa aplikacja do śledzenia akcji, ETF-ów, złota i polskich obligacji skarbowych — z analizą AI opartą na **architekturze Map-Reduce z wieloma agentami**.
-
-- **Agenty Worker** (Gemini Flash) analizują każdą pozycję równolegle
-- **Agent Manager** (Gemini Pro) syntetyzuje wszystkie raporty w jedną ocenę ryzyka portfela
-- Deterministyczna detekcja reżimu rynkowego (Tryb Paniki, Szok Obligacyjny...) — bez AI
-- Pełna obsługa 8 typów obligacji MF z danymi NBP/GUS CPI w czasie rzeczywistym
-- Macierz korelacji, benchmark, Sharpe ratio, max drawdown
-- 100% lokalnie — SQLite na dysku, klucz OpenRouter nigdy nie opuszcza komputera
-
+ 
+Aplikacja desktopowa do śledzenia akcji, ETF-ów, złota i polskich obligacji skarbowych — z analizą AI opartą o **architekturę wielu agentów Map-Reduce**.
+ 
+* **Agenci Worker** (Gemini Flash) analizują każdą pozycję równolegle
+* **Agent Manager** (Gemini Pro) syntetyzuje wszystkie raporty w jedną ocenę ryzyka portfela
+* Deterministyczne wykrywanie reżimów rynkowych (Panic Mode, Bond Shock, Oil Shock...) — bez AI
+* Pełne wsparcie dla wszystkich 8 typów polskich obligacji MF z aktualnymi danymi NBP/GUS CPI
+* Macierz korelacji, porównanie z benchmarkiem, wskaźnik Sharpe'a, max drawdown
 `Electron` `React` `TypeScript` `SQLite` `OpenRouter` `Yahoo Finance` `Map-Reduce`
-
+ 
 ---
-
-### 🎮 [Anime & Games Tracker](https://github.com/AronDaron/anime-search-app)
-Osobisty tracker anime i gier — zbudowany na własny użytek, ale publiczny.
-
-`Electron` `React` `TypeScript`
-
----
-
-### 🏥 Analizator dokumentów medycznych *(Prywatne)*
-Analiza dokumentów medycznych przez OCR z wieloma personami AI-specjalistów i funkcją "konsylium" — synteza wszystkich specjalistów w jedną ocenę. Zbudowany z dokładnym przeglądem prawnym: EU MDR, EU AI Act, RODO — z obowiązkowym aktywnym potwierdzeniem przy starcie.
-
+ 
+### 🏥 Medical Document Analyzer *(prywatne)*
+ 
+Analiza dokumentacji medycznej oparta o OCR, z wieloma personami specjalistów AI i funkcją "konsylium", która syntetyzuje opinie wszystkich specjalistów. Zbudowane z gruntowną analizą prawną — EU MDR, EU AI Act, RODO — z obowiązkową aktywną zgodą przy uruchomieniu.
+ 
 `Electron` `React` `TypeScript` `Gemini Flash` `OCR`
-
+ 
 ---
-
+ 
+### 🏛️ Sejm Simulator *(gotowy na Steam)*
+ 
+Symulator polityczny wzorowany na Democracy 4 — zarządzaj polskim parlamentem, przeprowadzaj ustawy, balansuj frakcje wyborców, reaguj na wydarzenia polityczne. Integracja BYOK z OpenRouter dla elementów narracyjnych opartych o AI.
+ 
+`Electron` `React` `JavaScript` `OpenRouter`
+ 
+---
+ 
 ### 💪 FitRPG *(w trakcie rozwoju)*
-Tracker fitness z mechanikami RPG — 11 statystyk, 21 rang, system zmęczenia i rdzewienia. Opcjonalna integracja AI przez OpenRouter.
-
+ 
+Tracker fitness w formie gry RPG — 11 statystyk, 21 rang, mechaniki zmęczenia i "rdzewienia". Opcjonalna integracja AI przez OpenRouter.
+ 
 `Electron` `React` `TypeScript` `SQLite` `OpenRouter`
-
+ 
 ---
-
-### 🌐 Narzędzie do lokalizacji gier Owlcat *(w trakcie rozwoju, prywatne)*
-
-Desktopowy pipeline do tłumaczenia gier Owlcat Games (Pathfinder, Rogue Trader) z angielskiego na polski. Przetwarza pliki lokalizacyjne `.json` z rygorystycznym zachowaniem kluczy silnika, tagów i tokenów formatowania — AI odpowiada za naturalnie brzmiący polski, narzędzie pilnuje poprawności strukturalnej.
-
-* Wsadowe tłumaczenie plików `.json` z walidacją integralności kluczy
-* Osobny pass korekty gramatycznej na wyjściu AI — płynność bez łamania składni silnika
-* **Semantyczny cache** przez LanceDB — wcześniej przetłumaczone frazy dopasowywane embeddingami, nie tylko dokładnym stringiem, co ogranicza zbędne wywołania API
-* System checkpointów w SQLite — zadania są wznawialne, raz przetłumaczone frazy nie są przetwarzane ponownie
-* Podgląd tłumaczenia na żywo w trybie deweloperskim (`npm run dev:web`)
-* Docelowy build jako Electron `.exe` — po ustabilizowaniu logiki
-
-`React` `TypeScript` `Node.js` `SQLite` `LanceDB` `OpenRouter`
-
+ 
+### 🎮 [Anime & Games Tracker](https://github.com/AronDaron/anime-search-app)
+ 
+Projekt poboczny — osobisty tracker anime i gier.
+ 
+`Electron` `React` `TypeScript`
+ 
 ---
-
+ 
 ## 🧠 Jak pracuję
-
-Vibe coduję z Claude Code. To znaczy: projektuję architekturę, modeluję dane, myślę o edge case'ach — a implementację zostawiam AI. Dzięki temu mogę wypuszczać realne aplikacje desktopowe ze złożonymi funkcjami (pipelines wieloagentowe, natywne integracje API, lokalna persystencja danych) bez tradycyjnego tła CS.
-
-Uważam, że to legitymna i niedoceniana umiejętność. Rzemiosło polega na tym, żeby wiedzieć *co* i *dlaczego* budować — nie na tym, żeby szybciej pisać.
-
+ 
+Vibe-koduję z Claude Code. To znaczy, że projektuję architekturę, modele danych, analizuję przypadki brzegowe — a AI zajmuje się implementacją. Dzięki temu mogę dowozić działające aplikacje desktopowe ze złożonymi funkcjami (pipeline'y wieloagentowe, integracje z natywnymi API, odpowiednia lokalna persystencja danych) bez tradycyjnego wykształcenia CS.
+ 
+Uważam, że to legalna i niedoceniana umiejętność. Rzemiosło polega na tym, żeby wiedzieć *co* zbudować i *dlaczego* — nie na szybkości pisania.
+ 
 ---
-
-## 📍 Łódź
-
-Otwarty na zdalne możliwości w obszarze narzędzi AI, integracji LLM i product developmentu.
-
+ 
+## 📍 Łódź, Polska
+ 
+Otwarty na zdalne oferty związane z narzędziami AI, integracją LLM-ów i rozwojem produktu.
+ 
 [![Ko-fi](https://img.shields.io/badge/Ko--fi-FF5E5B?style=flat&logo=ko-fi&logoColor=white)](https://ko-fi.com/arondaron)
+ 
