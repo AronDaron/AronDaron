@@ -4,7 +4,17 @@
  
 **IT professional turned AI app builder.** I build desktop applications powered by LLMs — things I actually want to use. After 10+ years in IT support I'm channeling that domain knowledge into building real tools with modern AI stacks.
  
-Default stack: Electron / Pywebview + React + TypeScript + SQLite + OpenRouter. Everything runs locally. No cloud, no subscriptions, no telemetry. The user owns their data.
+**Default stack:**
+
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
+![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![Electron](https://img.shields.io/badge/Electron-47848F?style=flat&logo=electron&logoColor=white)
+![Pywebview](https://img.shields.io/badge/Pywebview-2B2B2B?style=flat)
+![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat&logo=sqlite&logoColor=white)
+![OpenRouter](https://img.shields.io/badge/OpenRouter-FF6B35?style=flat)
+
+Everything runs locally. No cloud, no subscriptions, no telemetry. The user owns their data.
  
 ---
  
