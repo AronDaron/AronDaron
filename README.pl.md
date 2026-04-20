@@ -43,7 +43,7 @@ Analiza dokumentacji medycznej oparta o OCR, z wieloma personami specjalistów A
  
 ---
  
-### 🏛️ Sejm Simulator *(gotowy na Steam)*
+### 🏛️ Sejm Simulator *(Private)*
  
 Symulator polityczny wzorowany na Democracy 4 — zarządzaj polskim parlamentem, przeprowadzaj ustawy, balansuj frakcje wyborców, reaguj na wydarzenia polityczne. Integracja BYOK z OpenRouter dla elementów narracyjnych opartych o AI.
  
