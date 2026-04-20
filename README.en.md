@@ -1,8 +1,8 @@
-🇵🇱 [Wersja polska](./README.md)
+🇬🇧 [English version](./README.en.md)
 
-# Hi, I'm Radosław (AronDaron) 👋
+# Cześć, jestem Radosław (AronDaron) 👋
 
-**IT professional turned AI app builder.** I build desktop applications powered by LLMs — things I actually want to use. After 10+ years in IT support I'm channeling that domain knowledge into building real tools with modern AI stacks.
+**Specjalista IT, który buduje aplikacje desktopowe z AI.** Buduję narzędzia, których sam chcę używać. Po 10+ latach w IT wsparciu przekuwam tę wiedzę domenową w realne produkty na nowoczesnym stacku z LLM-ami.
 
 ---
 
@@ -15,74 +15,74 @@
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind-06B6D4?style=flat&logo=tailwindcss&logoColor=white)
 ![OpenRouter](https://img.shields.io/badge/OpenRouter-FF6B35?style=flat)
 
-**Default stack:** Electron + React + TypeScript + SQLite + OpenRouter API
+**Mój domyślny stack:** Electron + React + TypeScript + SQLite + OpenRouter API
 
-Everything runs locally. No cloud, no subscriptions, no telemetry. The user owns their data.
+Wszystko działa lokalnie. Bez chmury, bez subskrypcji, bez telemetrii. Dane należą do użytkownika.
 
 ---
 
-## 📦 Projects
+## 📦 Projekty
 
 ### 📈 [Finance Portfolio Tracker](https://github.com/AronDaron/priv-finance-app)
-Desktop app for tracking stocks, ETFs, gold, and Polish government bonds — with AI analysis powered by a **Map-Reduce multi-agent architecture**.
+Desktopowa aplikacja do śledzenia akcji, ETF-ów, złota i polskich obligacji skarbowych — z analizą AI opartą na **architekturze Map-Reduce z wieloma agentami**.
 
-- **Worker agents** (Gemini Flash) analyse each position in parallel
-- **Manager agent** (Gemini Pro) synthesises all reports into a single portfolio risk assessment
-- Deterministic market regime detection (Panic Mode, Bond Shock, Oil Shock...) — no AI needed
-- Full support for all 8 Polish MF bond types with live NBP/GUS CPI data
-- Correlation matrix, benchmark comparison, Sharpe ratio, max drawdown
-- 100% local — SQLite on disk, OpenRouter key never leaves your machine
+- **Agenty Worker** (Gemini Flash) analizują każdą pozycję równolegle
+- **Agent Manager** (Gemini Pro) syntetyzuje wszystkie raporty w jedną ocenę ryzyka portfela
+- Deterministyczna detekcja reżimu rynkowego (Tryb Paniki, Szok Obligacyjny...) — bez AI
+- Pełna obsługa 8 typów obligacji MF z danymi NBP/GUS CPI w czasie rzeczywistym
+- Macierz korelacji, benchmark, Sharpe ratio, max drawdown
+- 100% lokalnie — SQLite na dysku, klucz OpenRouter nigdy nie opuszcza komputera
 
 `Electron` `React` `TypeScript` `SQLite` `OpenRouter` `Yahoo Finance` `Map-Reduce`
 
 ---
 
 ### 🎮 [Anime & Games Tracker](https://github.com/AronDaron/anime-search-app)
-Personal tracker for anime and games — built for my own use, but public.
+Osobisty tracker anime i gier — zbudowany na własny użytek, ale publiczny.
 
 `Electron` `React` `TypeScript`
 
 ---
 
-### 🏥 Medical Document Analyzer *(Private)*
-OCR-powered medical document analysis with multiple AI specialist personas and a "konsylium" feature that synthesises all specialist views. Built with a thorough legal review — EU MDR, EU AI Act, GDPR — with mandatory active acknowledgment on launch.
+### 🏥 Analizator dokumentów medycznych *(Prywatne)*
+Analiza dokumentów medycznych przez OCR z wieloma personami AI-specjalistów i funkcją "konsylium" — synteza wszystkich specjalistów w jedną ocenę. Zbudowany z dokładnym przeglądem prawnym: EU MDR, EU AI Act, RODO — z obowiązkowym aktywnym potwierdzeniem przy starcie.
 
 `Electron` `React` `TypeScript` `Gemini Flash` `OCR`
 
 ---
 
-### 💪 FitRPG *(in development)*
-Fitness tracker gamified as an RPG — 11 stats, 21 ranks, fatigue/rusting mechanics. Optional AI integration via OpenRouter.
+### 💪 FitRPG *(w trakcie rozwoju)*
+Tracker fitness z mechanikami RPG — 11 statystyk, 21 rang, system zmęczenia i rdzewienia. Opcjonalna integracja AI przez OpenRouter.
 
 `Electron` `React` `TypeScript` `SQLite` `OpenRouter`
 
 ---
 
-### 🌐 Owlcat Game Localization Tool *(in development, private)*
+### 🌐 Narzędzie do lokalizacji gier Owlcat *(w trakcie rozwoju, prywatne)*
 
-A desktop translation pipeline for localizing Owlcat Games titles (Pathfinder, Rogue Trader) from English into Polish. Processes `.json` localization files while strictly preserving engine keys, tags, and formatting tokens — AI handles natural-sounding Polish output, the tool handles structural correctness.
+Desktopowy pipeline do tłumaczenia gier Owlcat Games (Pathfinder, Rogue Trader) z angielskiego na polski. Przetwarza pliki lokalizacyjne `.json` z rygorystycznym zachowaniem kluczy silnika, tagów i tokenów formatowania — AI odpowiada za naturalnie brzmiący polski, narzędzie pilnuje poprawności strukturalnej.
 
-* Batch translation of `.json` locale files with key integrity enforcement
-* Grammar correction pass on top of raw AI output — fluency without breaking engine syntax
-* **Semantic cache** via LanceDB — previously translated phrases are matched by embeddings, not just exact strings, reducing redundant API calls
-* SQLite checkpoint system — resumable jobs, no re-translating what's already done
-* Live translation preview during development (`npm run dev:web` client-server mode)
-* Planned Electron `.exe` build once core logic stabilizes
+* Wsadowe tłumaczenie plików `.json` z walidacją integralności kluczy
+* Osobny pass korekty gramatycznej na wyjściu AI — płynność bez łamania składni silnika
+* **Semantyczny cache** przez LanceDB — wcześniej przetłumaczone frazy dopasowywane embeddingami, nie tylko dokładnym stringiem, co ogranicza zbędne wywołania API
+* System checkpointów w SQLite — zadania są wznawialne, raz przetłumaczone frazy nie są przetwarzane ponownie
+* Podgląd tłumaczenia na żywo w trybie deweloperskim (`npm run dev:web`)
+* Docelowy build jako Electron `.exe` — po ustabilizowaniu logiki
 
 `React` `TypeScript` `Node.js` `SQLite` `LanceDB` `OpenRouter`
 
 ---
 
-## 🧠 How I work
+## 🧠 Jak pracuję
 
-I vibe code with Claude Code. That means I spec architecture, design data models, reason about edge cases — and let AI handle the heavy lifting on implementation. This lets me ship real, working desktop apps with complex features (multi-agent pipelines, native API integrations, proper local data persistence) without a traditional CS background.
+Vibe coduję z Claude Code. To znaczy: projektuję architekturę, modeluję dane, myślę o edge case'ach — a implementację zostawiam AI. Dzięki temu mogę wypuszczać realne aplikacje desktopowe ze złożonymi funkcjami (pipelines wieloagentowe, natywne integracje API, lokalna persystencja danych) bez tradycyjnego tła CS.
 
-I think this is a legitimate and underrated skill. The craft is in knowing *what* to build and *why* — not in typing faster.
+Uważam, że to legitymna i niedoceniana umiejętność. Rzemiosło polega na tym, żeby wiedzieć *co* i *dlaczego* budować — nie na tym, żeby szybciej pisać.
 
 ---
 
-## 📍 Łódź, Poland
+## 📍 Łódź
 
-Open to remote opportunities in AI tooling, LLM integration, and product development.
+Otwarty na zdalne możliwości w obszarze narzędzi AI, integracji LLM i product developmentu.
 
 [![Ko-fi](https://img.shields.io/badge/Ko--fi-FF5E5B?style=flat&logo=ko-fi&logoColor=white)](https://ko-fi.com/arondaron)
