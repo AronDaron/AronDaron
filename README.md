@@ -43,7 +43,7 @@ OCR-powered medical document analysis with multiple AI specialist personas and a
  
 ---
  
-### 🏛️ Sejm Simulator *(Steam-ready)*
+### 🏛️ Sejm Simulator *(Private)*
  
 Political simulator modeled after Democracy 4 — manage the Polish parliament, pass legislation, balance voter factions, handle political events. BYOK integration with OpenRouter for AI-driven narrative elements.
  
