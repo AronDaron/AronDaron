@@ -18,6 +18,7 @@ No-code desktop app for generating high-quality synthetic datasets to fine-tune 
 * **Plan-then-Execute engine** — diverse, coherent datasets without repetitive patterns
 * Real-time SSE dashboard, ShareGPT / Alpaca / ChatML export, HuggingFace Hub integration
 * **AGPL-3.0 licensed** — open source with strong copyleft protection
+
 `Next.js 16` `FastAPI` `Python` `SQLite` `OpenRouter` `Pywebview`
  
 ---
@@ -31,6 +32,7 @@ Desktop app for tracking stocks, ETFs, gold, and Polish government bonds — wit
 * Deterministic market regime detection (Panic Mode, Bond Shock, Oil Shock...) — no AI needed
 * Full support for all 8 Polish MF bond types with live NBP/GUS CPI data
 * Correlation matrix, benchmark comparison, Sharpe ratio, max drawdown
+
 `Electron` `React` `TypeScript` `SQLite` `OpenRouter` `Yahoo Finance` `Map-Reduce`
  
 ---
