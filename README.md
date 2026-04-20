@@ -16,7 +16,7 @@ No-code desktop app for generating high-quality synthetic datasets to fine-tune 
  
 * **Measurable results:** +4.5pp on HumanEval, +5.0pp on HumanEval+ (Qwen2.5-Coder-7B-Instruct, 5-run average, error bars don't overlap)
 * **Plan-then-Execute engine** — diverse, coherent datasets without repetitive patterns
-* 270 tests passing, real-time SSE dashboard, ShareGPT / Alpaca / ChatML export
+* Real-time SSE dashboard, ShareGPT / Alpaca / ChatML export, HuggingFace Hub integration
 * **AGPL-3.0 licensed** — open source with strong copyleft protection
 `Next.js 16` `FastAPI` `Python` `SQLite` `OpenRouter` `Pywebview`
  
