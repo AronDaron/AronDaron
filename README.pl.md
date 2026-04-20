@@ -18,6 +18,7 @@ Desktopowa aplikacja bez kodowania do generowania wysokiej jakości syntetycznyc
 * **Silnik Plan-then-Execute** — zróżnicowane, spójne datasety bez powtarzalnych wzorców
 * Dashboard w czasie rzeczywistym przez SSE, eksport do ShareGPT / Alpaca / ChatML, integracja z HuggingFace Hub
 * **Licencja AGPL-3.0** — open source z silną ochroną copyleft
+
 `Next.js 16` `FastAPI` `Python` `SQLite` `OpenRouter` `Pywebview`
  
 ---
@@ -31,6 +32,7 @@ Aplikacja desktopowa do śledzenia akcji, ETF-ów, złota i polskich obligacji s
 * Deterministyczne wykrywanie reżimów rynkowych (Panic Mode, Bond Shock, Oil Shock...) — bez AI
 * Pełne wsparcie dla wszystkich 8 typów polskich obligacji MF z aktualnymi danymi NBP/GUS CPI
 * Macierz korelacji, porównanie z benchmarkiem, wskaźnik Sharpe'a, max drawdown
+
 `Electron` `React` `TypeScript` `SQLite` `OpenRouter` `Yahoo Finance` `Map-Reduce`
  
 ---
