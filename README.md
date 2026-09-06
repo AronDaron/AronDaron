@@ -47,38 +47,6 @@ Desktop app for tracking stocks, ETFs, gold, and Polish government bonds — wit
  
 ---
  
-### 🏥 Medical Document Analyzer *(Private)*
- 
-OCR-powered medical document analysis with multiple AI specialist personas and a "konsylium" feature that synthesises all specialist views. Built with a thorough legal review — EU MDR, EU AI Act, GDPR — with mandatory active acknowledgment on launch.
- 
-`Electron` `React` `TypeScript` `Gemini Flash` `OCR`
- 
----
- 
-### 🏛️ Sejm Simulator *(Private)*
- 
-Political simulator modeled after Democracy 4 — manage the Polish parliament, pass legislation, balance voter factions, handle political events. BYOK integration with OpenRouter for AI-driven narrative elements.
- 
-`Electron` `React` `JavaScript` `OpenRouter`
- 
----
- 
-### 💪 FitRPG *(in development)*
- 
-Fitness tracker gamified as an RPG — 11 stats, 21 ranks, fatigue/rusting mechanics. Optional AI integration via OpenRouter.
- 
-`Electron` `React` `TypeScript` `SQLite` `OpenRouter`
- 
----
- 
-### 🎮 [Anime & Games Tracker](https://github.com/AronDaron/anime-search-app)
- 
-Side project — personal tracker for anime and games.
- 
-`Electron` `React` `TypeScript`
- 
----
- 
 ## 🧠 How I work
  
 I vibe code with Claude Code. That means I spec architecture, design data models, reason about edge cases — and let AI handle the heavy lifting on implementation. This lets me ship real, working desktop apps with complex features (multi-agent pipelines, native API integrations, proper local data persistence) without a traditional CS background.
