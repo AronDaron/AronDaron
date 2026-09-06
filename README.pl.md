@@ -47,38 +47,6 @@ Aplikacja desktopowa do śledzenia akcji, ETF-ów, złota i polskich obligacji s
  
 ---
  
-### 🏥 Medical Document Analyzer *(prywatne)*
- 
-Analiza dokumentacji medycznej oparta o OCR, z wieloma personami specjalistów AI i funkcją "konsylium", która syntetyzuje opinie wszystkich specjalistów. Zbudowane z gruntowną analizą prawną — EU MDR, EU AI Act, RODO — z obowiązkową aktywną zgodą przy uruchomieniu.
- 
-`Electron` `React` `TypeScript` `Gemini Flash` `OCR`
- 
----
- 
-### 🏛️ Sejm Simulator *(Private)*
- 
-Symulator polityczny wzorowany na Democracy 4 — zarządzaj polskim parlamentem, przeprowadzaj ustawy, balansuj frakcje wyborców, reaguj na wydarzenia polityczne. Integracja BYOK z OpenRouter dla elementów narracyjnych opartych o AI.
- 
-`Electron` `React` `JavaScript` `OpenRouter`
- 
----
- 
-### 💪 FitRPG *(w trakcie rozwoju)*
- 
-Tracker fitness w formie gry RPG — 11 statystyk, 21 rang, mechaniki zmęczenia i "rdzewienia". Opcjonalna integracja AI przez OpenRouter.
- 
-`Electron` `React` `TypeScript` `SQLite` `OpenRouter`
- 
----
- 
-### 🎮 [Anime & Games Tracker](https://github.com/AronDaron/anime-search-app)
- 
-Projekt poboczny — osobisty tracker anime i gier.
- 
-`Electron` `React` `TypeScript`
- 
----
- 
 ## 🧠 Jak pracuję
  
 Vibe-koduję z Claude Code. To znaczy, że projektuję architekturę, modele danych, analizuję przypadki brzegowe — a AI zajmuje się implementacją. Dzięki temu mogę dowozić działające aplikacje desktopowe ze złożonymi funkcjami (pipeline'y wieloagentowe, integracje z natywnymi API, odpowiednia lokalna persystencja danych) bez tradycyjnego wykształcenia CS.
