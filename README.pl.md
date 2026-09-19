@@ -52,12 +52,3 @@ Aplikacja desktopowa do śledzenia akcji, ETF-ów, złota i polskich obligacji s
 Vibe-koduję z Claude Code. To znaczy, że projektuję architekturę, modele danych, analizuję przypadki brzegowe — a AI zajmuje się implementacją. Dzięki temu mogę dowozić działające aplikacje desktopowe ze złożonymi funkcjami (pipeline'y wieloagentowe, integracje z natywnymi API, odpowiednia lokalna persystencja danych) bez tradycyjnego wykształcenia CS.
  
 Uważam, że to legalna i niedoceniana umiejętność. Rzemiosło polega na tym, żeby wiedzieć *co* zbudować i *dlaczego* — nie na szybkości pisania.
- 
----
- 
-## 📍 Łódź, Polska
- 
-Otwarty na zdalne oferty związane z narzędziami AI, integracją LLM-ów i rozwojem produktu.
- 
-[![Ko-fi](https://img.shields.io/badge/Ko--fi-FF5E5B?style=flat&logo=ko-fi&logoColor=white)](https://ko-fi.com/arondaron)
- 
