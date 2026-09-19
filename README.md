@@ -52,11 +52,4 @@ Desktop app for tracking stocks, ETFs, gold, and Polish government bonds — wit
 I vibe code with Claude Code. That means I spec architecture, design data models, reason about edge cases — and let AI handle the heavy lifting on implementation. This lets me ship real, working desktop apps with complex features (multi-agent pipelines, native API integrations, proper local data persistence) without a traditional CS background.
  
 I think this is a legitimate and underrated skill. The craft is in knowing *what* to build and *why* — not in typing faster.
- 
----
- 
-## 📍 Łódź, Poland
- 
-Open to remote opportunities in AI tooling, LLM integration, and product development.
- 
-[![Ko-fi](https://img.shields.io/badge/Ko--fi-FF5E5B?style=flat&logo=ko-fi&logoColor=white)](https://ko-fi.com/arondaron)
+
