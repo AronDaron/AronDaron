@@ -49,7 +49,7 @@ Desktop app for tracking stocks, ETFs, gold, and Polish government bonds - with 
  
 ## 🧠 How I work
  
-I vibe code with Claude Code. That means I spec architecture, design data models, reason about edge cases — and let AI handle the heavy lifting on implementation. This lets me ship real, working desktop apps with complex features (multi-agent pipelines, native API integrations, proper local data persistence) without a traditional CS background.
+I vibe code with Claude Code. That means I spec architecture, design data models, reason about edge cases - and let AI handle the heavy lifting on implementation. This lets me ship real, working desktop apps with complex features (multi-agent pipelines, native API integrations, proper local data persistence) without a traditional CS background.
  
-I think this is a legitimate and underrated skill. The craft is in knowing *what* to build and *why* — not in typing faster.
+I think this is a legitimate and underrated skill. The craft is in knowing *what* to build and *why* - not in typing faster.
 
