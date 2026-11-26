@@ -2,7 +2,7 @@
  
 # Hi, I'm Radosław (AronDaron) 👋
  
-**IT professional turned AI app builder.** I build desktop applications powered by LLMs — things I actually want to use. After 10+ years in IT support I'm channeling that domain knowledge into building real tools with modern AI stacks.
+**IT professional turned AI app builder.** I build desktop applications powered by LLMs - things I actually want to use. After 10+ years in IT support I'm channeling that domain knowledge into building real tools with modern AI stacks.
  
 **Default stack:**
 
@@ -20,12 +20,12 @@ Everything runs locally. No cloud, no subscriptions, no telemetry. The user owns
  
 ## 📦 Projects
  
-### 🎯 [Dataset Generator](https://github.com/AronDaron/dataset-generator) — flagship
+### 🎯 [Dataset Generator](https://github.com/AronDaron/dataset-generator) - flagship
  
 No-code desktop app for generating high-quality synthetic datasets to fine-tune LLMs. Three-stage pipeline (topics → outlines → examples) with LLM Judge quality control, embedding-based deduplication, and HuggingFace Hub integration.
  
 * **Measurable results:** +4.5pp on HumanEval, +5.0pp on HumanEval+ (Qwen2.5-Coder-7B-Instruct, 5-run average, error bars don't overlap)
-* **Plan-then-Execute engine** — diverse, coherent datasets without repetitive patterns
+* **Plan-then-Execute engine** - diverse, coherent datasets without repetitive patterns
 * Real-time SSE dashboard, ShareGPT / Alpaca / ChatML export, HuggingFace Hub integration
 * **AGPL-3.0 licensed** — open source with strong copyleft protection
 
@@ -35,11 +35,11 @@ No-code desktop app for generating high-quality synthetic datasets to fine-tune 
  
 ### 📈 [Finance Portfolio Tracker](https://github.com/AronDaron/priv-finance-app)
  
-Desktop app for tracking stocks, ETFs, gold, and Polish government bonds — with AI analysis powered by a **Map-Reduce multi-agent architecture**.
+Desktop app for tracking stocks, ETFs, gold, and Polish government bonds - with AI analysis powered by a **Map-Reduce multi-agent architecture**.
  
 * **Worker agents** (Gemini Flash) analyse each position in parallel
 * **Manager agent** (Gemini Pro) synthesises all reports into a single portfolio risk assessment
-* Deterministic market regime detection (Panic Mode, Bond Shock, Oil Shock...) — no AI needed
+* Deterministic market regime detection (Panic Mode, Bond Shock, Oil Shock...) - no AI needed
 * Full support for all 8 Polish MF bond types with live NBP/GUS CPI data
 * Correlation matrix, benchmark comparison, Sharpe ratio, max drawdown
 
