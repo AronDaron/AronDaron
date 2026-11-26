@@ -2,7 +2,7 @@
  
 # Cześć, jestem Radosław (AronDaron) 👋
  
-**Specjalista IT, który stał się twórcą aplikacji AI.** Buduję aplikacje desktopowe oparte o LLM — takie, z których sam chcę korzystać. Po ponad 10 latach w IT support wykorzystuję tę wiedzę domenową do tworzenia realnych narzędzi z wykorzystaniem nowoczesnych stacków AI.
+**Specjalista IT, który stał się twórcą aplikacji AI.** Buduję aplikacje desktopowe oparte o LLM - takie, z których sam chcę korzystać. Po ponad 10 latach w IT support wykorzystuję tę wiedzę domenową do tworzenia realnych narzędzi z wykorzystaniem nowoczesnych stacków AI.
  
 **Domyślny stack:**
 
@@ -20,14 +20,14 @@ Wszystko działa lokalnie. Bez chmury, bez subskrypcji, bez telemetrii. Użytkow
  
 ## 📦 Projekty
  
-### 🎯 [Dataset Generator](https://github.com/AronDaron/dataset-generator) — projekt flagowy
+### 🎯 [Dataset Generator](https://github.com/AronDaron/dataset-generator) - projekt flagowy
  
 Desktopowa aplikacja bez kodowania do generowania wysokiej jakości syntetycznych datasetów do fine-tuningu LLM-ów. Trzyetapowy pipeline (tematy → outline'y → przykłady) z kontrolą jakości przez LLM Judge, deduplikacją opartą o embeddingi i integracją z HuggingFace Hub.
  
 * **Mierzalne wyniki:** +4.5pp na HumanEval, +5.0pp na HumanEval+ (Qwen2.5-Coder-7B-Instruct, średnia z 5 uruchomień, słupki błędów się nie pokrywają)
-* **Silnik Plan-then-Execute** — zróżnicowane, spójne datasety bez powtarzalnych wzorców
+* **Silnik Plan-then-Execute** - zróżnicowane, spójne datasety bez powtarzalnych wzorców
 * Dashboard w czasie rzeczywistym przez SSE, eksport do ShareGPT / Alpaca / ChatML, integracja z HuggingFace Hub
-* **Licencja AGPL-3.0** — open source z silną ochroną copyleft
+* **Licencja AGPL-3.0** - open source z silną ochroną copyleft
 
 `Next.js 16` `FastAPI` `Python` `SQLite` `OpenRouter` `Pywebview`
  
@@ -35,11 +35,11 @@ Desktopowa aplikacja bez kodowania do generowania wysokiej jakości syntetycznyc
  
 ### 📈 [Finance Portfolio Tracker](https://github.com/AronDaron/priv-finance-app)
  
-Aplikacja desktopowa do śledzenia akcji, ETF-ów, złota i polskich obligacji skarbowych — z analizą AI opartą o **architekturę wielu agentów Map-Reduce**.
+Aplikacja desktopowa do śledzenia akcji, ETF-ów, złota i polskich obligacji skarbowych - z analizą AI opartą o **architekturę wielu agentów Map-Reduce**.
  
 * **Agenci Worker** (Gemini Flash) analizują każdą pozycję równolegle
 * **Agent Manager** (Gemini Pro) syntetyzuje wszystkie raporty w jedną ocenę ryzyka portfela
-* Deterministyczne wykrywanie reżimów rynkowych (Panic Mode, Bond Shock, Oil Shock...) — bez AI
+* Deterministyczne wykrywanie reżimów rynkowych (Panic Mode, Bond Shock, Oil Shock...) - bez AI
 * Pełne wsparcie dla wszystkich 8 typów polskich obligacji MF z aktualnymi danymi NBP/GUS CPI
 * Macierz korelacji, porównanie z benchmarkiem, wskaźnik Sharpe'a, max drawdown
 
@@ -49,6 +49,6 @@ Aplikacja desktopowa do śledzenia akcji, ETF-ów, złota i polskich obligacji s
  
 ## 🧠 Jak pracuję
  
-Vibe-koduję z Claude Code. To znaczy, że projektuję architekturę, modele danych, analizuję przypadki brzegowe — a AI zajmuje się implementacją. Dzięki temu mogę dowozić działające aplikacje desktopowe ze złożonymi funkcjami (pipeline'y wieloagentowe, integracje z natywnymi API, odpowiednia lokalna persystencja danych) bez tradycyjnego wykształcenia CS.
+Vibe-koduję z Claude Code. To znaczy, że projektuję architekturę, modele danych, analizuję przypadki brzegowe - a AI zajmuje się implementacją. Dzięki temu mogę dowozić działające aplikacje desktopowe ze złożonymi funkcjami (pipeline'y wieloagentowe, integracje z natywnymi API, odpowiednia lokalna persystencja danych) bez tradycyjnego wykształcenia CS.
  
-Uważam, że to legalna i niedoceniana umiejętność. Rzemiosło polega na tym, żeby wiedzieć *co* zbudować i *dlaczego* — nie na szybkości pisania.
+Uważam, że to legalna i niedoceniana umiejętność. Rzemiosło polega na tym, żeby wiedzieć *co* zbudować i *dlaczego* - nie na szybkości pisania.
